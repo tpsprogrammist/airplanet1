@@ -1,3 +1,9 @@
 div{
     border: 1px dotted black;
 }
+
+
+/* выпадающий график работы при наведении мышки */
+.schedule:hover {
+    background: violet;
+}
