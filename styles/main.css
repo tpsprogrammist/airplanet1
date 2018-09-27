@@ -12,10 +12,11 @@ body{
 .header{
     /* position: relative; */
     background-color: #4b73b5;
+    display: flex;
 }
 
 .main{
-
+    display: flex;
 }
 
 .sidebar{
@@ -23,7 +24,21 @@ body{
 }
 
 .footer{
+    display: flex;
     background-color: #4b73b5;
+}
+
+.footer-copiright{
+    /* display: inline-block; */
+    /* width: 20%; */
+}
+
+.footer-logo{
+    /* display: flex; */
+}
+
+.footer-social{
+    display: flex;
 }
 
 .header-logo{
@@ -32,12 +47,72 @@ body{
 }
 
 .contacts{
-    display: inline-block;
-    position: absolute;
-    right: 0;
+   
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* right: 0; */
     border: 1px solid red;
+    margin-left: auto;
 }
-
+/* 
 .contacts a{
     display: block;
+} */
+
+.contacts__phone{
+    display: block;
 }
+
+.menu{
+    /* display: flex; */
+}
+
+.tariff{
+    display: inline-block;
+}
+
+.news{
+    display: flex;
+}
+
+.contacts__schedule{
+    display: block;
+}
+
+
+.pagination{
+    display: flex;
+    margin: center;
+}
+
+.pagination-menu{
+    display: inline;
+}
+
+.pagination-menu a{
+    display: inline;
+}
+.pagination-menu ul{
+    display: inline;
+}
+.pagination-menu li{
+    display: inline;
+}
+
+
+ul.pagination-pages{
+    display: inline;
+}
+
+ul.footer-social-list li{
+    display: inline;
+}
+
+.footer-social__text{
+    display: block;
+}
+
+.footer-social-list{
+    display: block;
+}
+
