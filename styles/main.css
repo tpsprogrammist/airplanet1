@@ -1,15 +1,43 @@
+#{
+/*  */
+}
 
+body{
+
+}
+.wrapper{
+
+}
+
+.header{
+    /* position: relative; */
+    background-color: #4b73b5;
+}
+
+.main{
+
+}
+
+.sidebar{
+
+}
 
 .footer{
     background-color: #4b73b5;
 }
 
-div{
-    border: 1px dotted black;
+.header-logo{
+    display: inline-block;
+    
 }
 
+.contacts{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    border: 1px solid red;
+}
 
-/* выпадающий график работы при наведении мышки */
-.schedule:hover {
-    background: violet;
+.contacts a{
+    display: block;
 }
