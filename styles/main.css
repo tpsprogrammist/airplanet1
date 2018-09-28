@@ -12,7 +12,9 @@ body {}
     margin: 0 auto;
 }
 
-.wrapper {}
+.wrapper {
+    position: relative;
+}
 
 .header {
     /* position: relative; */
@@ -20,6 +22,7 @@ body {}
     /* display: flex; */
     width: 1100px;
     height: 77px;
+    margin: 0 auto;
 }
 
 .header-logo {
@@ -67,14 +70,21 @@ a {
 }
 
 .main {
-    display: flex;
+    /* display: inline-block; */
+    /* position: relative; */
+    position: absolute;
+    margin: 0 auto;
 }
 
-.sidebar {}
+.sidebar {
+    /* position: absolute; */
+    /* display: inline-block; */
+}
 
 .footer {
     display: flex;
     background-color: #4b73b5;
+    position: absolute;
 }
 
 .footer-copiright {
