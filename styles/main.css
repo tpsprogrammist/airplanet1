@@ -6,7 +6,9 @@
 
 body {}
 
-.container{
+.container {
+    position: relative;
+    display: flex;
     margin: 0 auto;
 }
 
@@ -15,7 +17,53 @@ body {}
 .header {
     /* position: relative; */
     background-color: #4b73b5;
-    display: flex;
+    /* display: flex; */
+    width: 1100px;
+    height: 77px;
+}
+
+.header-logo {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+}
+
+.header-contacts {
+    position: absolute;
+    top: 20px;
+    right: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacts__phone {
+    /* position: absolute; */
+    /* Style for "8 (800) 00" */
+    /* width: 173px; */
+    /* height: 22px; */
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 700;
+    /* line-height: 54px; */
+    /* text-transform: upperscase; */
+}
+
+.contacts__schedule {
+    /* Style for "График раб" */
+    /* width: 103px; */
+    /* height: 14px; */
+    position: absolute;
+    opacity: 0.7;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    /* line-height: 54px; */
+    text-decoration: underline;
+    right: 0px;
 }
 
 .main {
@@ -104,12 +152,12 @@ ul.pagination-pages {
     display: inline;
 }
 
-.footer-copyright{
+.footer-copyright {
     display: inline-block;
     width: 20%;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     margin: auto;
 }
