@@ -78,12 +78,27 @@ a {
     /* position: relative; */
     /* position: absolute; */
     margin: 0 auto;
+    display: block;
 }
 
 .sidebar {
+    /* float: left; */
+    width: 199px;
+    /* height: 100%; */
+    left: 0px;
+    /* display: inline-flex; */
+
     /* position: absolute; */
     /* display: inline-block; */
 }
+
+.main-content{
+    /* display: inline-flex; */
+    width: 1007px;
+    /* float: right; */
+    /* left: 200px; */
+}
+
 
 .footer {
     /* display: flex; */
@@ -128,6 +143,10 @@ a {
 
 .menu {
     /* display: flex; */
+}
+
+.tariffs{
+    display: block;
 }
 
 .tariff {
