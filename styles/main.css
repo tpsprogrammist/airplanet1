@@ -76,7 +76,7 @@ a {
 .main {
     /* display: inline-block; */
     /* position: relative; */
-    position: absolute;
+    /* position: absolute; */
     margin: 0 auto;
 }
 
@@ -86,9 +86,10 @@ a {
 }
 
 .footer {
-    display: flex;
+    /* display: flex; */
     background-color: #4b73b5;
-    position: absolute;
+    /* position: absolute; */
+    margin: 0 auto;
 }
 
 .footer-copiright {
