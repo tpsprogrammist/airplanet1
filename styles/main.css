@@ -4,13 +4,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
     /* position: relative; */
     /* display: flex; */
     margin: 0 auto;
-    /* width: 1100px; */
+    width: 1100px;
     /* display: block; */
 }
 
@@ -20,6 +22,7 @@ body {
 
 .header {
     /* position: relative; */
+    background: #2b2b2b;
     background-color: #4b73b5;
     /* display: flex; */
     /* width: 1100px; */
@@ -248,4 +251,8 @@ ul.footer-social-list li {
 
 .footer-social-list {
     display: block;
+}
+
+.flex-container {
+    display: flex;
 }
