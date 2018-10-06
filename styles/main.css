@@ -42,6 +42,13 @@ body {
     right: 21px;
 }
 
+img{
+    border-style: none;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -85,11 +92,13 @@ a {
 }
 
 .sidebar {
+    vertical-align: top;
     display: inline-block;
     /* height: 100%; */
     /* width: 15%; */
     float: left;
     width: 199px;
+    height: 100%;
     /* position: absolute; */
     /* height: 100%; */
     /* left: 0px; */
@@ -105,9 +114,14 @@ a {
     display: inline;
     height: 100%;
     width: 75%;
-    float: right;
+    float: left;
     
     /* left: 200px; */
+}
+
+.poster{
+    display: inline;
+    float: left;
 }
 
 .news{
@@ -180,16 +194,32 @@ ul.news-list{
     display: block;
     margin: 0 auto;
     float: inherit;
+    width: 901px;
     /* clear: both;/ */
     
 }
 
+.tariff-list{
+    display: inline;
+    flex-direction: column;
+} 
+
 .tariff {
-    display: inline-block;
+    /* display: flex; */
 }
 
 .news {
-    display: flex;
+    display: inline-flex;
+    width: 901px;
+    flex-direction: column;
+}
+
+.news-category{
+    display: block;
+}
+
+ul.news-list{
+    display: block;
 }
 
 .contacts__schedule {
